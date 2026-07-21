@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pavithra Portfolio</title>
+    <!-- New -->
+    <meta name="description" content="Portfolio of Rakesh K R, Full Stack Developer, Corporate Trainer, Educator">
+    <meta name="keywords" content="Portfolio of Rakesh K R, Full Stack Developer, Corporate Trainer, Educator, NodeJS, Spring boot, ReactJS">
+    <meta name="author" content="Rakesh K R">
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:title" content="K Pavithra portfolio">
+    <meta property="og:description" content="Portfolio of K Pavithra, Full Stack Developer, Corporate Trainer, Educator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://k-pavithra.com">
+    <meta property="og:image" content="https://k-pavithra.com/img/profile.jpg">
+
+    <meta name="twitter:card" content="summary_portfolio">
+    <!-- End of new tags -->
+    <title>K Pavithra Portfolio</title>
 </head>
 <body>
-
+    <!-- new -->
+    <a href="#main-content">Skip to main content</a>
     <!-- Header contains the site title and navigation bar -->
     <header>
-        <h1>Pavithra </h1>
-        <p>Student | CSE | Dancer</p>
+        <h1>K Pavithra</h1>
+        <p>Full Stack Developer | Corporate Trainer | Educator</p>
 
-        <!-- Navigation bar -->
-        <nav>
+        <!-- Navigation bar: new -->
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <!-- new -->
+                <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content of the portfolio -->
-    <main>
+    <main id="main-content">
 
         <!-- Hero section -->
         <section id="hero">
             <h2>Hero Section</h2>
-            <p>Hello, K Pavithra.</p>
+            <p>Hello, I am <strong>K Pavithra</strong>.</p>
             <p>
-                I study CSE, and I am a passionate dancer. I am currently pursuing my studies at MS Ramaiah University, where I am honing my skills in computer science and exploring the world of technology.
+                I build <em>web applications</em>, teach modern web development,
+                and create learning experiences for students and professionals.
             </p>
+            <figure>
+                <img src="profile.jpg" alt="Profile Picture" width="100px" height="200px">
+                <figcaption>Profile picture of K Pavithra</figcaption>
+            </figure>
         </section>
 
         <!-- About Me section -->
@@ -42,11 +64,16 @@
 
             <article>
                 <p>
-                    I am a passionate learner and dancer with a strong background in computer science.
-                    
+                    I am a software developer and trainer with a strong interest in
+                    full stack development, React, backend technologies, and education.
                 </p>
                 <p>
-                    I enjoy solving problems, learning new technologies, and sharing knowledge with others. I have a passion for web development and AI, and I am always looking for opportunities to grow and contribute to the tech community.
+                    I enjoy building practical applications, teaching job-oriented skills,
+                    and helping learners understand concepts in a structured way.
+                </p>
+                <p>
+                    I believe in <mark>clear teaching</mark>, <strong>Practical learning</strong>
+                    My goal is to help learners grow step by step, with clarity &amp; Confidence.
                 </p>
             </article>
 
@@ -54,7 +81,7 @@
                 <h3>Quick Facts</h3>
                 <ul>
                     <li>Based in Bengaluru, Karnataka</li>
-                    <li>Student MS Ramaiah University</li>
+                    <li>Works with React, Node.js, MongoDB, and Spring Boot</li>
                     <li>Interested in AI, stock market analysis, and curriculum design</li>
                 </ul>
             </aside>
@@ -94,6 +121,34 @@
                     <li>Git and GitHub</li>
                     <li>Nginx</li>
                 </ul>
+            </article>
+
+            <article>
+                <h3>Skill Summary Table</h3>
+                <table border="1">
+                    <caption>Tech experience overview</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Tech</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>JS, ReactJS, NextJS, Tailwind, AngularJS</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Backend</td>
+                            <td>NodeJS, ExpressJS, Spring Boot</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                </table>
             </article>
         </section>
 
@@ -143,6 +198,14 @@
             </article>
         </section>
 
+        <section id="media">
+            <h2>Media</h2>
+            <article>
+                <h3>Introduction of K Pavithra</h3>
+                <video src="sample-5s-360p.mp4" width="350px" height="250px" aria-label="Portfolio Introduction"controls></video>
+            </article>
+        </section>
+        
         <!-- Contact section -->
         <section id="contact">
             <h2>Contact</h2>
@@ -186,7 +249,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 K Pavithra. All rights reserved.</p>
+        <p>&copy; 2026 Rakesh K R. All rights reserved.</p>
         <p>
             <a href="#hero">Back to Top</a>
         </p>
